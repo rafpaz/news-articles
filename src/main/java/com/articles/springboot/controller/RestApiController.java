@@ -153,6 +153,12 @@ public class RestApiController {
 
 	@RequestMapping(value = "/article/", method = RequestMethod.POST)
 	public ResponseEntity<Article> addArticle(@RequestBody Article article){
+
 		return new ResponseEntity<>(article, HttpStatus.OK);
+	}
+
+	@RequestMapping(value = "/article/", method = RequestMethod.GET)
+	public ResponseEntity<Article> getArticles(){
+
 	}
 }

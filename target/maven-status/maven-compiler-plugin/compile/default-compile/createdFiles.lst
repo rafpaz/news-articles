@@ -1,0 +1,13 @@
+com\articles\springboot\controller\RestApiController.class
+com\articles\springboot\model\Article.class
+com\articles\springboot\repositories\UserRepository.class
+com\articles\springboot\service\PostServiceImpl.class
+com\articles\springboot\configuration\JpaConfiguration.class
+com\articles\springboot\model\User.class
+com\articles\springboot\util\CustomErrorType.class
+com\articles\springboot\service\UserServiceImpl.class
+com\articles\springboot\service\UserService.class
+com\articles\springboot\SpringBootArticlesApp.class
+com\articles\springboot\repositories\PostRepository.class
+com\articles\springboot\model\Post.class
+com\articles\springboot\service\PostService.class
