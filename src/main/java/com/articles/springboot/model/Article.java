@@ -28,13 +28,13 @@ public class Article implements Serializable {
 	@Column(name = "TEXT", nullable = false)
 	private String text;
 
-	@NotEmpty
+	@NotNull
 	@Column(name = "PUBLISHDATE", nullable = false)
 	private Date publishDate;
 
 	@NotEmpty
 	@Column(name = "AUTHORS", nullable = false)
-	private ArrayList<String> authors;
+	private ArrayList<String> authors = new ArrayList<String>();
 
 	@NotEmpty
 	@Column(name = "KEYWORDS", nullable = false)
